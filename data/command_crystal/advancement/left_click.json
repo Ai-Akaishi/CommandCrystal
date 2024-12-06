@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"left_click": {
+			"trigger": "player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"nbt": "{Tags:[\"CommandCrystal\"]}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "command_crystal:left_click"
+	}
+}

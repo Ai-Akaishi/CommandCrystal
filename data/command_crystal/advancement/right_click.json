@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"right_click": {
+			"trigger": "player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"nbt": "{Tags:[\"CommandCrystal\"]}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "command_crystal:right_click"
+	}
+}
